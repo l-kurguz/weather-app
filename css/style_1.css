@@ -1,0 +1,69 @@
+body {
+  margin: 10px auto;
+  font-family: "Caveat", cursive;
+  font-family: "Fira Sans", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #77628c;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: #5f6769;
+}
+h3 {
+  font-size: 15px;
+  color: #71a0a5;
+  padding-left: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  margin-left: 135px;
+}
+.container {
+  padding: 20px 40px;
+  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+
+  border-radius: 15px;
+  max-width: 700px;
+}
+form {
+  padding-left: 20px;
+}
+input {
+  border-radius: 5px;
+  border-color: #d9ead9;
+}
+.current-conditions {
+  color: #71a0a5;
+}
+.current-temperature {
+  font-size: 100px;
+  color: #5f6769;
+  font-weight: 600;
+  line-height: normal;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.scale-type {
+  font-size: 20px;
+  padding-top: 40px;
+  padding-left: 30px;
+  color: #71a0a5;
+}
+
+.current-icon {
+  font-size: 130px;
+  line-height: normal;
+}
