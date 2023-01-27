@@ -70,8 +70,11 @@ function searchSubmit(event) {
   event.preventDefault();
 
   let city = document.querySelector("#search-city").value;
-
-  search(city);
+  if (document.querySelector("#search-city").value) {
+    search(city);
+  } else {
+    alert("Type a city");
+  }
 }
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", searchSubmit);
